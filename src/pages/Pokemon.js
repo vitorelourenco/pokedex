@@ -60,7 +60,7 @@ export default function PokemonPage() {
                                     )}
                                 </NavButton>
                                 <PokemonContainer>
-                                    <img src={`https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/${id}.png`} alt={pokemon.name} />
+                                    <img src={pokemon.image} alt={pokemon.name} />
                                     <span className="name">{pokemon.name}</span>
                                     <span className="id">#{id}</span>
                                 </PokemonContainer>
