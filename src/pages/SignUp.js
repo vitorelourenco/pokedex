@@ -38,8 +38,8 @@ export default function SignUp() {
                 <Input type="text" placeholder="E-mail" value={email} onChange={e => setEmail(e.target.value)} />
                 <Input type="password" placeholder="Password" value={password} onChange={e => setPassword(e.target.value)} />
                 <Input type="password" placeholder="Confirm your password" value={confirmPassword} onChange={e => setConfirmPassword(e.target.value)} />
-                <Button>Sign In</Button>
-                <Link to="/login" style={{ padding: '6px' }}>Already have an account? Log In</Link>
+                <Button>Sign Up</Button>
+                <Link to="/login" style={{ padding: '6px' }}>Already have an account? Sign In</Link>
             </Container>
         </Page>
     );
